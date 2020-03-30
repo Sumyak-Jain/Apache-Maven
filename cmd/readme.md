@@ -56,6 +56,8 @@ You executed the Maven goal archetype:generate, and passed in various parameters
 cd my_app
 mvn package
 ```
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/3%20(2).png?raw=true)
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/4%20(2).png?raw=true)
  
 
 
