@@ -17,6 +17,31 @@ mvn archetype:generate
 ```
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/1%20(2).png?raw=true)
 
+4. After that do the following on cmd itself
+```shell
+Choose org.apache.maven.archetypes:maven-archetype-quickstart version:
+1: 1.0-alpha-1
+2: 1.0-alpha-2
+3: 1.0-alpha-3
+4: 1.0-alpha-4
+5: 1.0
+6: 1.1
+7: 1.3
+8: 1.4
+Choose a number: 8: 8
+Define value for property 'groupId': com.mycompany.app
+Define value for property 'artifactId': my_app
+Define value for property 'version' 1.0-SNAPSHOT: : 1
+Define value for property 'package' com.mycompany.app: : com.mycompany.my_app
+Confirm properties configuration:
+groupId: com.mycompany.app
+artifactId: my_app
+version: 1
+package: com.mycompany.my_app
+ Y: : Y
+ ```
+
+
 
 
 
