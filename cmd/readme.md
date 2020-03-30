@@ -88,6 +88,10 @@ after this check your directory for this and click on any HTML file to check the
 *  **install:** install the package into the local repository, for use as a dependency in other projects locally
 *  **deploy:** done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects. 
 
+you can practice the above on cmd using
+```
+mvn <phase> { Ex: mvn install }
+```
 
 
  
