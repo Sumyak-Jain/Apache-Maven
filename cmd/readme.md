@@ -1,5 +1,5 @@
 # Maven using command Prompt
-##  Follow this to Create a simple Maven Project using CLI in just simple! 8 steps from beginning
+##  Follow this to Create a simple Maven Project using CLI in just simple! 6 steps from beginning
 **STEP 1**. Download Maven and follow the installation instructions
 You can use this link to download, install and set path for maven.
 
@@ -17,7 +17,7 @@ mvn archetype:generate
 ```
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/1%20(2).png?raw=true)
 
-**STEP 4**. After that do the following on cmd itself
+**3.1**After that do the following on cmd itself
 ```shell
 Choose org.apache.maven.archetypes:maven-archetype-quickstart version:
 1: 1.0-alpha-1
@@ -42,7 +42,7 @@ package: com.mycompany.my_app
  ```
  ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/2%20(2).png?raw=true)
  
- **STEP 5**. After this check the directory on your system which you provided before to reside this project a folder named my_app
+ After this check the directory on your system which you provided before to reside this project a folder named my_app
  will be made with the following inside it:
  * src
  * pom
@@ -51,7 +51,7 @@ package: com.mycompany.my_app
  
 You executed the Maven goal archetype:generate, and passed in various parameters to that goal. The prefix archetype is the plugin that provides the goal. If you are familiar with Ant, you may conceive of this as similar to a task. This archetype:generate goal created a simple project based upon a maven-archetype-quickstart archetype.
 
-**STEP 6**. Now its time to BUILD  BUT!! first you have to enter into the directory where your project resides so type the following command:
+**STEP 4**. Now its time to BUILD  BUT!! first you have to enter into the directory where your project resides so type the following command:
 ```shell
 cd my_app
 mvn package
@@ -61,10 +61,10 @@ after this check your directory there will be a .jar file of your project.
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/3%20(2).png?raw=true)
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/4%20(2).png?raw=true)
 
-**STEP 7**. You may test the newly compiled and packaged JAR with the following command
+**STEP 5**. You may test the newly compiled and packaged JAR with the following command
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/5%20(2).png?raw=true)
 
-**STEP 8**. Genrating the site , type the following command:
+**STEP 6**. Genrating the site , type the following command:
 ```
 mvn site
 ```
