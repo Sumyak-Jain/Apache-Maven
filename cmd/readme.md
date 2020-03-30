@@ -1,11 +1,11 @@
 # Maven using command Prompt
 ##  Follow this to Create a simple Maven Project using CLI
-### First, download Maven and follow the installation instructions
+1.download Maven and follow the installation instructions
 You can use this link to download, install and set path for maven.
 
 **link** https://www.javatpoint.com/how-to-install-maven
 
- After that, type the following in a terminal or in a command prompt: 
+2.Type the following in a terminal or in a command prompt: 
 ```shell
 mvn --version 
 ```
