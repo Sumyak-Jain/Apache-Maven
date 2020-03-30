@@ -11,6 +11,11 @@ mvn --version
 ```
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/Screenshot%20(111).png?raw=true)
 
+3. On your command line, execute the following Maven goal to start creating a maven project
+```shell
+mvn archetype:generate
+```
+
 
 
 
