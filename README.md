@@ -1,4 +1,6 @@
 # Apache-Maven
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Maven_logo.svg/1280px-Maven_logo.svg.png)
 ### Introduction
 Maven, a [Yiddish word](https://en.wikipedia.org/wiki/Maven) meaning *accumulator of knowledge*, 
 began as an attempt to simplify the build processes in the Jakarta Turbine project.
