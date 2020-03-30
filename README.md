@@ -13,13 +13,13 @@ comprehension of any Java-based project.
 Maven’s primary goal is to allow a developer to comprehend the complete state of a development effort in the shortest period of time. 
 In order to attain this goal, there are several areas of concern that Maven attempts to deal with:
 
-*Making the build process easy
-*Providing a uniform build system
-*Providing quality project information
-*Providing guidelines for best practices development
-*Allowing transparent migration to new features
-*Making the build process easy
-*While using Maven doesn’t eliminate the need to know about the underlying mechanisms,
+* Making the build process easy
+* Providing a uniform build system
+* Providing quality project information
+* Providing guidelines for best practices development
+* Allowing transparent migration to new features
+* Making the build process easy
+* While using Maven doesn’t eliminate the need to know about the underlying mechanisms,
 Maven does provide a lot of shielding from the details.
 
 ### Providing a uniform build system
@@ -32,12 +32,12 @@ immense amounts of time when trying to navigate many projects.
 Maven provides plenty of useful project information that is in part taken from your POM and
 in part generated from your project’s sources. For example, Maven can provide:
 
-*Change log document created directly from source control
-*Cross referenced sources
-*List of mailing lists managed by the project
-*Dependency list
-*Unit test reports including coverage
-*As Maven improves the information set provided will improve, all of which will be transparent to users of Maven.
+* Change log document created directly from source control
+* Cross referenced sources
+* List of mailing lists managed by the project
+* Dependency list
+* Unit test reports including coverage
+* As Maven improves the information set provided will improve, all of which will be transparent to users of Maven.
 
 Other products can also provide Maven plugins to allow their set of project information alongside some of the standard information given by Maven, all still based on the POM.
 
@@ -64,10 +64,10 @@ Installation of new or updated plugins from third parties or Maven itself has be
 ## What is Maven Not?
 You may have heard some of the following things about Maven:
 
-*Maven is a site and documentation tool
-*Maven extends Ant to let you download dependencies
-*Maven is a set of reusable Ant scriptlets
-*While Maven does these things, as you can read above in the “What is Maven?” section, these are not the only features Maven has, and 
+* Maven is a site and documentation tool
+* Maven extends Ant to let you download dependencies
+* Maven is a set of reusable Ant scriptlets
+* While Maven does these things, as you can read above in the “What is Maven?” section, these are not the only features Maven has, and 
 its objectives are quite different.
 
 Maven does encourage best practices, but we realise that some projects may not fit with these ideals for historical reasons. 
