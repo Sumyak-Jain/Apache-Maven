@@ -47,6 +47,9 @@ package: com.mycompany.my_app
  * src
  * pom
  
+ *What you just did?* 
+You executed the Maven goal archetype:generate, and passed in various parameters to that goal. The prefix archetype is the plugin that provides the goal. If you are familiar with Ant, you may conceive of this as similar to a task. This archetype:generate goal created a simple project based upon a maven-archetype-quickstart archetype.
+ 
 
 
 
