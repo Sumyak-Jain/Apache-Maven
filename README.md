@@ -1,5 +1,5 @@
 # Apache-Maven
-## Introduction
+### Introduction
 Maven, a [Yiddish word](https://en.wikipedia.org/wiki/Maven) meaning *accumulator of knowledge*, 
 began as an attempt to simplify the build processes in the Jakarta Turbine project.
 There were several projects, each with their own Ant build files, that were all slightly different. 
@@ -47,16 +47,16 @@ Maven aims to gather current principles for best practices development, and make
 For example, specification, execution, and reporting of unit tests are part of the normal build cycle using Maven.
 Current unit testing best practices were used as guidelines:
 
-*Keeping test source code in a separate, but parallel source tree
-*Using test case naming conventions to locate and execute tests
-*Having test cases setup their environment instead of relying on customizing the build for test preparation
+* Keeping test source code in a separate, but parallel source tree
+* Using test case naming conventions to locate and execute tests
+* Having test cases setup their environment instead of relying on customizing the build for test preparation
 
 Maven also aims to assist in project workflow such as release and issue management.
 
 Maven also suggests some guidelines on how to layout your project’s directory structure.
 Once you learn the layout you can easily navigate any other project that uses Maven and the same defaults.
 
-## Allowing transparent migration to new features
+### Allowing transparent migration to new features
 Maven provides an easy way for Maven clients to update their installations so that they can take advantage of any changes that have been made to Maven itself.
 
 Installation of new or updated plugins from third parties or Maven itself has been made trivial for this reason.
