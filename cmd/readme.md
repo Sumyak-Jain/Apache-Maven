@@ -4,10 +4,12 @@
 You can use this link to download, install and set path for maven.
 
 **link** https://www.javatpoint.com/how-to-install-maven
+
  After that, type the following in a terminal or in a command prompt: 
 ```shell
 mvn --version 
 ```
+
 
 
 
