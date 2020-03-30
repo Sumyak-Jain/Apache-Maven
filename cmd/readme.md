@@ -68,6 +68,17 @@ after this check your directory there will be a .jar file of your project.
 ```
 mvn site
 ```
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/6%20(2).png?raw=true)
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/7%20(2).png?raw=true)
+
+after this check your directory for this and click on any HTML file to check the documentation.
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/8%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/9%20(2).png?raw=true)
+
+
+
  
 
 
