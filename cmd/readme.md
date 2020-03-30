@@ -40,6 +40,7 @@ version: 1
 package: com.mycompany.my_app
  Y: : Y
  ```
+ ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/2%20(2).png?raw=true)
 
 
 
