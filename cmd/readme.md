@@ -41,6 +41,12 @@ package: com.mycompany.my_app
  Y: : Y
  ```
  ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/2%20(2).png?raw=true)
+ 
+ 5. After this check the directory on your system which you provided before to reside this project a folder named my_app
+ will be made with the following inside it:
+ * src
+ * pom
+ 
 
 
 
