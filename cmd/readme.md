@@ -56,11 +56,18 @@ You executed the Maven goal archetype:generate, and passed in various parameters
 cd my_app
 mvn package
 ```
+after this check your directory there will be a .jar file of your project.
+
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/3%20(2).png?raw=true)
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/4%20(2).png?raw=true)
 
 7. You may test the newly compiled and packaged JAR with the following command
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/cmd/target/site/images/logos/5%20(2).png?raw=true)
+
+8. Genrating the site , type the following command:
+```
+mvn site
+```
  
 
 
