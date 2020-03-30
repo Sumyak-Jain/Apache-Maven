@@ -5,7 +5,7 @@ You can use this link to download, install and set path for maven.
 
 **link** https://www.javatpoint.com/how-to-install-maven
 
-2. Type the following in a terminal or in a command prompt: 
+2. After doing step 1 Type the following in a terminal or in a command prompt: 
 ```shell
 mvn --version 
 ```
@@ -51,7 +51,7 @@ package: com.mycompany.my_app
  
 You executed the Maven goal archetype:generate, and passed in various parameters to that goal. The prefix archetype is the plugin that provides the goal. If you are familiar with Ant, you may conceive of this as similar to a task. This archetype:generate goal created a simple project based upon a maven-archetype-quickstart archetype.
 
-6. Now its time to BUILD  BUT!! first you have to enter into the directory where your project is type the following command:
+6. Now its time to BUILD  BUT!! first you have to enter into the directory where your project resides so type the following command:
 ```shell
 cd my_app
 mvn package
