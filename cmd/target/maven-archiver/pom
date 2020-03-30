@@ -1,0 +1,6 @@
+properties
+
+#Created by Apache Maven 3.6.3
+groupId=com.mycompany.app
+artifactId=my_app
+version=1
