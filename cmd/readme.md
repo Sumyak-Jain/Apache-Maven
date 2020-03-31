@@ -51,7 +51,7 @@ package: com.mycompany.my_app
  
 You executed the Maven goal archetype:generate, and passed in various parameters to that goal. The prefix archetype is the plugin that provides the goal. If you are familiar with Ant, you may conceive of this as similar to a task. This archetype:generate goal created a simple project based upon a maven-archetype-quickstart archetype.
 
-**STEP 4**. Now its time to BUILD your BUT!! first you have to enter into the directory where your project resides so type the following command:
+**STEP 4**. Now its time to BUILD your project  BUT!! first you have to enter into the directory where your project resides so type the following command:
 ```shell
 cd my_app
 mvn package
