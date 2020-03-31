@@ -22,6 +22,7 @@ mvn archetype:generate
 
 **3.1** After that do the following on cmd itself
 ```shell
+give the number 1582: 1582
 Choose org.apache.maven.archetypes:maven-archetype-quickstart version:
 1: 1.0-alpha-1
 2: 1.0-alpha-2
