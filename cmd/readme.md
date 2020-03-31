@@ -3,6 +3,8 @@
 **STEP 1**. Download Maven and follow the installation instructions
 You can use this link to download, install and set path for maven.
 
+JUST TO CHECK MAVEN WORKING PROPERLY
+
 **link** https://www.javatpoint.com/how-to-install-maven
 
 **STEP 2**. After doing step 1 Type the following in a terminal or in a command prompt: 
