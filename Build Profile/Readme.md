@@ -5,19 +5,19 @@
 +  As such, profiles can easily lead to differing build results from different members of your team. However, used properly, profiles can be used while still preserving project portability. 
 
 ## What are the different types of profile? 
-+ Per Project
+**Per Project**
  ```python
  Defined in the POM itself (pom.xml).
  ```
 
-+ Per User
+**Per User**
 ```python
 Defined in the Maven-settings (%USER_HOME%/.m2/settings.xml).
 ```
 
-+ Global
+**Global**
 ```python
- Defined in the global Maven-settings (${maven.home}/conf/settings.xml).
+Defined in the global Maven-settings (${maven.home}/conf/settings.xml).
 ```
 
 
