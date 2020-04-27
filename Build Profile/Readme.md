@@ -36,11 +36,35 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 
 ### For example we are making two profiles profile1 and profile2 there work will be to print something and copy file1 to another folders, and then our goal would be to "test"  like mvn test.
 
-+ TYPE-1
-> basic syntax to add in your pom.xml
+> **NOTE:** complete pom.xml with what to print and how to copy file is given above in pom.xml
+
+## TYPE-1
+
+ Basic syntax to add in your pom.xml
+ 
+ ```python
  <activeProfiles>
-    <activeProfile>profile-1</activeProfile>
+    <activeProfile>profile1</activeProfile>
   </activeProfiles>
- for 
+  
+  <activeProfiles>
+    <activeProfile>profile2</activeProfile>
+  </activeProfiles>
+ ```
+Commands to run for this type of activation
+
+```python
+mvn test -P profile1
+```
+![alt txt](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/2%20(2).png?raw=true)
+
+```python
+mvn test -P profile1,profile2
+```
+
+![alt txt](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/4%20(2).png?raw=true)
+
+![alt txt](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/5%20(2).png?raw=true)
+
 
 
