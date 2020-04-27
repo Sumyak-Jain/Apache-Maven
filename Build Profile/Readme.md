@@ -42,7 +42,7 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 
  By doing this you need to call your profile i.e which profile you to be active
  
- **Basic_syntax_to_add_in_your_pom.xml**
+ Basic syntax to add in your pom.xml
  
  
  ```python
@@ -122,7 +122,7 @@ mvn test -P profile1,profile2
 
  This type will make your profiles active by default
  
- **Basic syntax to add in your pom.xml **
+ **Basic syntax to add in your pom.xml**
  
  ```python
  <profiles>
