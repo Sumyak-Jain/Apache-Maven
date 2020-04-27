@@ -20,4 +20,13 @@ Defined in the Maven-settings (%USER_HOME%/.m2/settings.xml).
 Defined in the global Maven-settings (${maven.home}/conf/settings.xml).
 ```
 
+## How can a profile be triggered? How does this vary according to the type of profile being used?
+
+A profile can be triggered/activated in several ways:
++ Explicitly
++ Through Maven settings
++ Based on environment variables
++ OS settings
++ Present or missing files
+
 
