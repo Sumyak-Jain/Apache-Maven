@@ -6,8 +6,10 @@
 
 ## What are the different types of profile? 
 + Per Project
-  * Defined in the POM itself (pom.xml).
-
+ ```python
+  - Defined in the POM itself (pom.xml).
+ ```
+ 
 + Per User
   - Defined in the Maven-settings (%USER_HOME%/.m2/settings.xml).
 
