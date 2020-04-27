@@ -41,15 +41,66 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 ## TYPE-1
 
  Basic syntax to add in your pom.xml
+ by doing this you need to call your profile i.e which profile you to be active
+ 
  
  ```python
- <activeProfiles>
-    <activeProfile>profile1</activeProfile>
-  </activeProfiles>
-  
-  <activeProfiles>
-    <activeProfile>profile2</activeProfile>
-  </activeProfiles>
+  <profile>
+         <id>profile1</id>
+         <build>
+            <plugins>
+               <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-antrun-plugin</artifactId>
+                  <version>1.1</version>
+                  <executions>
+                     <execution>
+                        <phase>test</phase>
+                        <goals>
+                           <goal>run</goal>
+                        </goals>
+                        <configuration>
+                           <tasks>
+                              <echo>this is profile 1</echo>
+                              <copy file="src/main/file1.txt"
+                                 tofile="src/test/file2.txt"/>
+                           </tasks>
+                        </configuration>
+                     </execution>
+                  </executions>
+               </plugin>
+            </plugins>
+         </build>
+      </profile>
+      
+      
+       <id>profile2</id>
+         <build>
+            <plugins>
+               <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-antrun-plugin</artifactId>
+                  <version>1.1</version>
+                  <executions>
+                     <execution>
+                        <phase>test</phase>
+                        <goals>
+                           <goal>run</goal>
+                        </goals>
+                        <configuration>
+                           <tasks>
+                             <echo>this is profile 2</echo>
+                              <copy file="src/main/file1.txt"
+                                 tofile="src/test/file3.txt"/>
+                           </tasks>
+                        </configuration>
+                     </execution>
+                  </executions>
+               </plugin>
+            </plugins>
+         </build>
+      </profile>
+      
  ```
 Commands to run for this type of activation
 
@@ -65,6 +116,55 @@ mvn test -P profile1,profile2
 ![alt txt](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/4%20(2).png?raw=true)
 
 ![alt txt](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/5%20(2).png?raw=true)
+
+## TYPE-2
+
+ Basic syntax to add in your pom.xml 
+ this type will make your profiles active by default
+ 
+ ```python
+ <profiles>
+  <profile>
+    <id>profile-1</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    ...
+  </profile>
+  
+  
+  
+  <profile>
+    <id>profile-1</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    ...
+  </profile>
+</profiles>
+ ```
+ **OR**
+ 
+```python
+ <activeProfiles>
+    <activeProfile>profile1</activeProfile>
+  </activeProfiles>
+  
+  <activeProfiles>
+    <activeProfile>profile2</activeProfile>
+  </activeProfiles>
+ ```
+ 
+ Commands to run for this type of activation
+
+```python
+mvn test test
+```
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/5%20(2).png?raw=true)
+
+
+ 
+
 
 
 
