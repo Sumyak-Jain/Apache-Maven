@@ -34,4 +34,13 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 
 [How to make a build ?](/cmd/readme.md)
 
+### For example we are making two profiles profile1 and profile2 there work will be to print something and copy file1 to another folders, and then our goal would be to "test"  like mvn test.
+
++ TYPE-1
+> basic syntax to add in your pom.xml
+ <activeProfiles>
+    <activeProfile>profile-1</activeProfile>
+  </activeProfiles>
+ for 
+
 
