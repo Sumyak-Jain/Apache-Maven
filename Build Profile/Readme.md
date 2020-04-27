@@ -40,8 +40,9 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 
 ## TYPE-1
 
- Basic syntax to add in your pom.xml
- by doing this you need to call your profile i.e which profile you to be active
+ By doing this you need to call your profile i.e which profile you to be active
+ 
+ **Basic syntax to add in your pom.xml**
  
  
  ```python
@@ -119,8 +120,9 @@ mvn test -P profile1,profile2
 
 ## TYPE-2
 
- Basic syntax to add in your pom.xml 
- this type will make your profiles active by default
+ This type will make your profiles active by default
+ 
+ **Basic syntax to add in your pom.xml **
  
  ```python
  <profiles>
@@ -169,10 +171,10 @@ mvn test
 
 ## TYPE-3
 
-basic syntax to add in pom.xml 
-
 The profile will be activated when the system property "debug" is specified with value:true
-add this in any of your profile to make it activate only  when true is entered because debug by default is true  
+add this in any of your profile to make it activate only  when true is entered because debug by default is true
+
+**Basic syntax to add in pom.xml **
 
 ```python
 <activation>
@@ -195,7 +197,7 @@ mvn test -Ddebug=true
 
 If just in case you dont want to add name as debug there is also a another option you can also provide your name and value which will activate your profile only if that name and its value is provide
 
-basic syntax to add in pom.xml
+**Basic syntax to add in pom.xml**
 
 ```python
 <activation>
@@ -216,6 +218,37 @@ mvn test -Dgaurav=jain
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/14%20(2).png?raw=true)
 
 ## TYPE-4
+
+This type will make your profile active only when the file location you provide is missing if the location is not missing then it will not activate the profile
+
+i have made this for profile 2
+
+**Basic syntax to add in your pom.xml**
+
+```python
+<activation>
+      <file>
+        <missing>target/generated-sources/axistools/wsdl2java/org/apache/maven</missing>
+      </file>
+    </activation> 
+```
+command to run for this type activation
+
+```python
+mvn test  
+```
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/15%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/16%20(2).png?raw=true)
+
+Now, you can check your project location it should have folders like this
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/17%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/19%20(2).png?raw=true)
+
+
 
 
 
