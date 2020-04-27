@@ -42,7 +42,7 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 
  By doing this you need to call your profile i.e which profile you to be active
  
- **Basic syntax to add in your pom.xml**
+ **Basic_syntax_to_add_in_your_pom.xml**
  
  
  ```python
