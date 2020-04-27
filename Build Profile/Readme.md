@@ -160,7 +160,12 @@ mvn test -P profile1,profile2
 ```python
 mvn test 
 ```
+
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/5%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/6%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/7%20(2).png?raw=true)
 
 
  
