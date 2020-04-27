@@ -102,7 +102,7 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
       </profile>
       
  ```
-Commands to run for this type of activation
+Command to run for this type of activation
 
 ```python
 mvn test -P profile1
@@ -155,7 +155,7 @@ mvn test -P profile1,profile2
   </activeProfiles>
  ```
  
- Commands to run for this type of activation
+ Command to run for this type of activation
 
 ```python
 mvn test 
@@ -166,6 +166,59 @@ mvn test
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/6%20(2).png?raw=true)
 
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/7%20(2).png?raw=true)
+
+## TYPE-3
+
+basic syntax to add in pom.xml 
+
+The profile will be activated when the system property "debug" is specified with value:true
+add this in any of your profile to make it activate only  when true is entered because debug by default is true  
+
+```python
+<activation>
+      <property>
+        <name>debug</name>
+      </property>
+    </activation>
+```
+
+ Command to run for this type of activation
+ 
+ i have made this for only profile 1 s
+
+```python
+mvn test -Ddebug=true 
+```
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/11%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/12%20(2).png?raw=true)
+
+If just in case you dont want to add name as debug there is also a another option you can also provide your name and value which will activate your profile only if that name and its value is provide
+
+basic syntax to add in pom.xml
+
+```python
+<activation>
+		 <property>
+         <name>gaurav</name>
+		 <value>jain</value>
+         </property>
+		 </activation> 
+```
+Command to run for this type of activation
+
+```python
+mvn test -Dgaurav=jain 
+```
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/13%20(2).png?raw=true)
+
+![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/14%20(2).png?raw=true)
+
+## TYPE-4
+
+
+
 
 
  
