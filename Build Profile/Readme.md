@@ -42,7 +42,7 @@ you can see this to know how to make a build using cmd in just simple 5-6 steps!
 
  By doing this you need to call your profile i.e which profile you to be active
  
- Basic syntax to add in your pom.xml
+ **Basic syntax to add in your pom.xml**
  
  
  ```python
@@ -174,7 +174,7 @@ mvn test
 The profile will be activated when the system property "debug" is specified with value:true
 add this in any of your profile to make it activate only  when true is entered because debug by default is true
 
-**Basic syntax to add in pom.xml **
+**Basic syntax to add in pom.xml**
 
 ```python
 <activation>
