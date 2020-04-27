@@ -6,13 +6,13 @@
 
 ## What are the different types of profile? 
 + Per Project
-- Defined in the POM itself (pom.xml).
+  - Defined in the POM itself (pom.xml).
 
 + Per User
-- Defined in the Maven-settings (%USER_HOME%/.m2/settings.xml).
+  - Defined in the Maven-settings (%USER_HOME%/.m2/settings.xml).
 
 + Global
-- Defined in the global Maven-settings (${maven.home}/conf/settings.xml).
+  - Defined in the global Maven-settings (${maven.home}/conf/settings.xml).
 
 
 
