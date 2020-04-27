@@ -32,6 +32,6 @@ A profile can be triggered/activated in several ways:
 ### Before starting with to know different ways on how to trigger your profiles first you have to make a build of your project.
 you can see this to know how to make a build using cmd in just simple 5-6 steps!.
 
-[How to make a build](/cmd/readme.md)
+[How to make a build ?](/cmd/readme.md)
 
 
