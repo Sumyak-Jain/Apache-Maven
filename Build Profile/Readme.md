@@ -158,7 +158,7 @@ mvn test -P profile1,profile2
  Commands to run for this type of activation
 
 ```python
-mvn test test
+mvn test 
 ```
 ![alt text](https://github.com/sumyak/Apache-Maven/blob/master/Build%20Profile/IMAGES/5%20(2).png?raw=true)
 
