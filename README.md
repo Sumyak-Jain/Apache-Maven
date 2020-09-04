@@ -81,6 +81,6 @@ If you decide to use Maven and have an unusual build structure that you cannot r
 the use of Maven altogether.
 
 
-## Want to make a simple maven project using CMD ? 
+# Want to make a simple maven project using CMD ? 
 
-[Maven using command Prompt 🤩](https://github.com/sumyak/Apache-Maven/tree/master/cmd)
+## [Maven using command Prompt 🤩](https://github.com/sumyak/Apache-Maven/tree/master/cmd)
